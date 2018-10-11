@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --primary:#00e5ff ;
+    --secundary:white;
+    --tertiary:black;
+    --fondo:orange;
+}
+.superior{
+    width: 100%;
+    height: 7rem;
+    background-color:var(--primary);
+}
+.logo{
+    width: 6rem;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    padding-right: 1rem;
+    border-right: 1px solid black;
+}
+.sennova{
+    width: 12rem;
+    height: auto;
+}
+.imagen{
+    width: 100%;
+    height: 30rem;
+    background-color:var(--fondo); 
+}
